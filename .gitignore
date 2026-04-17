@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Reports and Logs
+logs/*
+!logs/.gitkeep
+reports/*.json
+reports/*.csv
+
+# FAISS Index
+faiss_index/*
+!faiss_index/.gitkeep
+
+# Models
+models/*.gguf
+models/*.bin
+models/.cache/
+
+# Data
+data/cache/
+data/d2/
+data/evaluation_dataset_d2.csv
+data/faiss_indexes/
+data/*.db
+data/samples/*
+data/uploads/*
+!data/uploads/.gitkeep
+data/test_cases/
+
+# Output
+output/*
+!output/.gitkeep
+
+# Temporary files
+temp_uploads/*
+!temp_uploads/.gitkeep
+*.tmp
+*.bak
+
+# Unused/Archived
+unused/
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.pytest_latest.txt
+.coverage
+htmlcov/
+*.cover
+
+# Local media
+*.mp4
+
+# Local documentation notes
+CODE_DOCUMENTATION.md
+
+# Local keys and diagnostics
+Keys/
+_cloud_health_probe.py
+
+# Local generated artifacts
+data/artifacts/

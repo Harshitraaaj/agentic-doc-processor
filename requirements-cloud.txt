@@ -1,0 +1,64 @@
+# Cloud-optimized requirements for EC2 deployment
+# Goal: fast install, lower memory footprint, stable runtime
+
+# Core
+python-dotenv
+pydantic
+json-repair
+
+# LangGraph / LangChain
+langchain
+langchain-core
+langchain-community
+langgraph
+langsmith
+
+# LLM Providers (cloud policy: Groq + Bedrock)
+groq>=0.4.0
+boto3
+botocore
+
+# Vector store
+faiss-cpu
+
+# Cloud cache
+redis
+
+# Document parsing
+unstructured
+pypdf
+python-docx
+python-pptx
+openpyxl
+
+# OCR
+pytesseract
+Pillow
+pillow-heif
+pdf2image
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Retry
+tenacity
+
+# PII
+presidio-analyzer
+presidio-anonymizer
+
+# Logging
+structlog
+python-json-logger
+
+# Utilities
+python-magic
+tiktoken
+pandas
+jsonschema
+
+# Frontend
+streamlit
+plotly

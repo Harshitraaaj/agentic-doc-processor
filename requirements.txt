@@ -1,0 +1,80 @@
+# Core Dependencies
+python-dotenv
+pydantic
+json-repair
+
+# LangChain & LangGraph
+langchain
+langchain-core
+langchain-community
+langgraph
+langsmith
+
+# LLM Providers
+# Groq API - Ultra-fast LLM inference (300+ tokens/sec)
+groq>=0.4.0
+# AWS Bedrock
+boto3
+botocore
+# For local Llama3.1 fallback
+# llama-cpp-python  # Skipped - requires C++ compiler
+transformers
+# For HuggingFace Inference API (faster cloud-based fallback)
+huggingface_hub
+
+# Vector Store
+faiss-cpu
+sentence-transformers
+opensearch-py
+
+# Cloud Cache
+redis
+
+# Document Loading (LangChain)
+# Unstructured library for various document formats
+unstructured[local-inference]  # Enhanced image processing with detectron2
+pypdf  # PDF support for LangChain
+python-docx  # DOCX support
+python-pptx  # PPTX support
+openpyxl  # Excel support
+
+# OCR (still needed for image processing)
+pytesseract
+Pillow
+pillow-heif  # HEIF/HEIC image format support
+pdf2image  # Optional: for scanned PDFs
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Retry & Error Handling
+tenacity
+
+# PII Detection & Redaction
+presidio-analyzer
+presidio-anonymizer
+cupy-cuda12x  # GPU acceleration for Presidio (CUDA 12.x)
+
+# Logging & Monitoring
+structlog
+python-json-logger
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+httpx
+
+# Utilities
+python-magic-bin; platform_system == "Windows"  # Windows file type detection
+python-magic; platform_system != "Windows"      # Linux/macOS file type detection
+tiktoken  # Token counting
+pandas
+jsonschema
+# openpyxl  # Moved to Document Loading section
+
+# Frontend
+streamlit
+plotly

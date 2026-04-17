@@ -1,0 +1,216 @@
+document_id,document_text,ground_truth_class,ground_truth_fields,ground_truth_pii,notes
+SMP001,"INVOICE
+
+Invoice Number: INV-2025-0031
+Invoice Date: March 10, 2025
+Due Date: April 10, 2025
+
+FROM:
+Bright Solutions LLC
+18 Park Avenue, Floor 3
+Austin, TX 78701
+Phone: (512) 555-9900
+Email: billing@brightsolutions.io
+Tax ID: 74-3381209
+
+TO:
+Daniel Fernandez
+Head of Operations
+RedLine Enterprises
+900 Congress Ave, Suite 500
+Austin, TX 78701
+Email: daniel.fernandez@redlineent.com
+Phone: (512) 555-4477
+
+DESCRIPTION:
+Cloud Infrastructure Setup (AWS)         $6,500.00
+Monthly DevOps Support (March)           $2,200.00
+Security Audit & Penetration Testing     $3,800.00
+Staff Training Workshop (1 day)          $1,000.00
+
+Subtotal: $13,500.00
+Tax (8.25%): $1,113.75
+TOTAL: $14,613.75
+
+Payment Terms: Net 30
+Accepted: Bank Transfer, Credit Card",financial_document,"{""document_number"": ""INV-2025-0031"", ""document_date"": ""2025-03-10"", ""due_date"": ""2025-04-10"", ""issuer_name"": ""Bright Solutions LLC"", ""issuer_address"": ""18 Park Avenue, Floor 3, Austin, TX 78701"", ""recipient_name"": ""Daniel Fernandez"", ""recipient_address"": ""900 Congress Ave, Suite 500, Austin, TX 78701"", ""total_amount"": 14613.75, ""tax_amount"": 1113.75, ""currency"": ""USD"", ""payment_method"": ""Bank Transfer"", ""line_items"": [""Cloud Infrastructure Setup - $6500"", ""DevOps Support - $2200"", ""Security Audit - $3800"", ""Training Workshop - $1000""]}","[{""type"": ""NAME"", ""value"": ""Daniel Fernandez""}, {""type"": ""EMAIL"", ""value"": ""billing@brightsolutions.io""}, {""type"": ""EMAIL"", ""value"": ""daniel.fernandez@redlineent.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(512) 555-9900""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(512) 555-4477""}, {""type"": ""LOCATION"", ""value"": ""18 Park Avenue, Floor 3, Austin, TX 78701""}, {""type"": ""LOCATION"", ""value"": ""900 Congress Ave, Suite 500, Austin, TX 78701""}]",IT services invoice — cloud + devops + security
+SMP002,"RESUME
+
+Riya Nair
+Software Engineer | Full Stack Developer
+riya.nair@gmail.com | (408) 555-2231
+San Jose, CA 95110
+linkedin.com/in/riyanair | github.com/riyanair
+
+PROFESSIONAL SUMMARY
+Results-driven full-stack engineer with 4 years of experience building scalable web applications.
+Proficient in React, Node.js, Python, and AWS. Passionate about clean code and agile collaboration.
+
+EDUCATION
+B.Tech in Computer Science — VIT University, Vellore, India
+Graduated: May 2020 | GPA: 8.7/10
+
+WORK EXPERIENCE
+Software Engineer II — Zoho Corporation, Chennai, India (Jun 2020 – Aug 2022)
+  - Built REST APIs serving 500K+ daily requests using Node.js and PostgreSQL
+  - Reduced page load time by 38% via frontend optimizations (React, Webpack)
+  - Led migration of legacy PHP modules to microservices architecture
+
+Software Engineer — ServiceNow, San Jose, CA (Sep 2022 – Present)
+  - Developed UI components for the Now Platform using React & TypeScript
+  - Collaborated with ML team to integrate NLP features into workflow automation
+  - Mentored 2 junior engineers; conducted weekly code reviews
+
+SKILLS
+Languages: Python, JavaScript, TypeScript, Java, SQL
+Frameworks: React, Node.js, Express, Django, Spring Boot
+Cloud & DevOps: AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD (GitHub Actions)
+Databases: PostgreSQL, MongoDB, Redis
+
+CERTIFICATIONS
+AWS Certified Developer – Associate (2023)
+Google Professional Cloud Developer (2024)
+
+LANGUAGES
+English (Fluent), Tamil (Native), Hindi (Conversational)",resume,"{""candidate_name"": ""Riya Nair"", ""email"": ""riya.nair@gmail.com"", ""phone"": ""(408) 555-2231"", ""address"": ""San Jose, CA 95110"", ""linkedin_url"": ""linkedin.com/in/riyanair"", ""summary"": ""Results-driven full-stack engineer with 4 years of experience building scalable web applications."", ""education"": [{""degree"": ""B.Tech Computer Science"", ""institution"": ""VIT University"", ""gpa"": ""8.7/10""}], ""work_experience"": [{""title"": ""Software Engineer II"", ""company"": ""Zoho Corporation"", ""start_date"": ""2020-06-01"", ""end_date"": ""2022-08-31""}, {""title"": ""Software Engineer"", ""company"": ""ServiceNow"", ""start_date"": ""2022-09-01"", ""end_date"": null}], ""skills"": [""Python"", ""JavaScript"", ""TypeScript"", ""React"", ""Node.js"", ""AWS"", ""Docker""], ""certifications"": [""AWS Certified Developer"", ""Google Professional Cloud Developer""], ""languages"": [""English"", ""Tamil"", ""Hindi""]}","[{""type"": ""NAME"", ""value"": ""Riya Nair""}, {""type"": ""EMAIL"", ""value"": ""riya.nair@gmail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(408) 555-2231""}, {""type"": ""LOCATION"", ""value"": ""San Jose, CA 95110""}]",Full-stack engineer resume — 4 yrs experience USA/India
+SMP003,"JOB OFFER LETTER
+
+March 5, 2025
+
+Dear Marcus Thompson,
+
+We are delighted to extend this formal offer of employment at NovaTech AI Inc.
+
+Position: Senior Machine Learning Engineer
+Department: AI Platform Engineering
+Reports To: Director of AI, Dr. Sarah Kim
+Start Date: April 1, 2025
+Work Location: Remote (US-based)
+
+COMPENSATION
+Base Salary: $175,000 per year
+Annual Bonus: Up to 20% of base salary (performance-based)
+Equity: 0.15% RSU vesting over 4 years (1-year cliff)
+Signing Bonus: $15,000 (repayable if exit within 12 months)
+
+BENEFITS
+- Medical, Dental, Vision (100% premium covered for employee)
+- 401(k) with 5% employer match
+- 30 days PTO + 10 federal holidays
+- $3,000 annual learning & development budget
+- Home office stipend: $2,000 one-time setup
+
+EMPLOYMENT CONDITIONS
+This offer is contingent on:
+1. Successful background and reference check
+2. Proof of work authorization (I-9 verification)
+3. Signed NDA and IP assignment agreement
+
+Please sign and return this offer by March 15, 2025.
+
+Sincerely,
+Jennifer Walsh
+VP of Human Resources
+NovaTech AI Inc.
+jennifer.walsh@novatech.ai | (650) 555-1122",job_offer,"{""candidate_name"": ""Marcus Thompson"", ""company_name"": ""NovaTech AI Inc."", ""position_title"": ""Senior Machine Learning Engineer"", ""offer_date"": ""2025-03-05"", ""start_date"": ""2025-04-01"", ""salary"": ""$175,000/year"", ""employment_type"": ""Full-time"", ""work_location"": ""Remote (US-based)"", ""department"": ""AI Platform Engineering"", ""reporting_to"": ""Dr. Sarah Kim"", ""benefits"": ""Medical, Dental, Vision, 401k 5% match, 30 days PTO, $3000 L&D budget"", ""conditions"": ""Background check, I-9 verification, NDA"", ""deadline_to_accept"": ""2025-03-15""}","[{""type"": ""NAME"", ""value"": ""Marcus Thompson""}, {""type"": ""NAME"", ""value"": ""Jennifer Walsh""}, {""type"": ""NAME"", ""value"": ""Dr. Sarah Kim""}, {""type"": ""EMAIL"", ""value"": ""jennifer.walsh@novatech.ai""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(650) 555-1122""}]",Senior ML engineer offer — remote USA with equity
+SMP004,"PATIENT MEDICAL RECORD
+
+Patient Name: Sandra Liu
+Patient ID: HOSP-2025-33871
+Date of Birth: September 14, 1978
+Gender: Female
+Blood Type: A+
+Insurance: BlueCross BlueShield — Policy #BCB-8844221
+
+Visit Date: February 20, 2025
+Facility: Riverside General Hospital — Internal Medicine
+Attending Physician: Dr. Kevin Osei, MD
+Department: Internal Medicine
+
+CHIEF COMPLAINT
+Patient presents with persistent fatigue, night sweats, and unintentional weight loss of 8 lbs over 6 weeks.
+
+DIAGNOSIS
+1. Suspected Lymphoma — pending biopsy confirmation
+2. Iron-deficiency anemia (secondary)
+
+VITAL SIGNS
+Blood Pressure: 118/74 mmHg | Heart Rate: 88 bpm | Temperature: 37.4°C | SpO2: 97%
+
+LABORATORY RESULTS
+CBC: WBC 14.2 (elevated) | Hgb 9.8 g/dL (low) | Platelets 420 (elevated)
+Ferritin: 8 ng/mL (low) | LDH: 380 U/L (elevated)
+CT Chest/Abdomen: Mediastinal lymphadenopathy noted
+
+PRESCRIBED MEDICATIONS
+1. Ferrous Sulfate 325mg — once daily with food
+2. Folic Acid 1mg — once daily
+
+PLAN
+Refer to Oncology. Excisional lymph node biopsy scheduled for February 28, 2025.
+
+FOLLOW-UP
+March 7, 2025 — Oncology department
+
+NOTES
+Patient counseled on diagnosis uncertainty pending biopsy. Family support present.",medical_record,"{""patient_name"": ""Sandra Liu"", ""patient_id"": ""HOSP-2025-33871"", ""date_of_birth"": ""1978-09-14"", ""visit_date"": ""2025-02-20"", ""physician_name"": ""Dr. Kevin Osei"", ""department"": ""Internal Medicine"", ""diagnosis"": ""Suspected Lymphoma; Iron-deficiency anemia"", ""prescribed_medications"": [""Ferrous Sulfate 325mg daily"", ""Folic Acid 1mg daily""], ""lab_results"": {""WBC"": ""14.2 elevated"", ""Hgb"": ""9.8 g/dL low"", ""LDH"": ""380 U/L elevated"", ""Ferritin"": ""8 ng/mL low""}, ""follow_up_date"": ""2025-03-07"", ""notes"": ""Patient counseled on diagnosis uncertainty pending biopsy.""}","[{""type"": ""NAME"", ""value"": ""Sandra Liu""}, {""type"": ""DATE_TIME"", ""value"": ""1978-09-14""}, {""type"": ""MEDICAL_ID"", ""value"": ""HOSP-2025-33871""}, {""type"": ""MEDICAL_ID"", ""value"": ""BCB-8844221""}, {""type"": ""NAME"", ""value"": ""Dr. Kevin Osei""}, {""type"": ""LOCATION"", ""value"": ""Riverside General Hospital""}]",Internal medicine record — suspected lymphoma with labs
+SMP005,"PASSPORT
+
+United States of America
+
+Surname: WALKER
+Given Names: EMILY GRACE
+Nationality: UNITED STATES OF AMERICA
+Date of Birth: 07 JUN 1995
+Place of Birth: SEATTLE, WASHINGTON, USA
+Sex: F
+Personal No.: 987654321
+
+Passport No.: US-20250041
+Date of Issue: 15 JAN 2025
+Date of Expiry: 14 JAN 2035
+Issuing Authority: U.S. Department of State
+
+Permanent Address:
+4211 Eastlake Avenue E, Apt 302
+Seattle, WA 98102
+United States
+
+Machine Readable Zone:
+P<USAWALKER<<EMILY<GRACE<<<<<<<<<<<<<<<<<<<<<<
+US20250041F3501146USA9506078F2501144987654321",id_document,"{""document_type"": ""passport"", ""document_number"": ""US-20250041"", ""full_name"": ""Emily Grace Walker"", ""date_of_birth"": ""1995-06-07"", ""gender"": ""F"", ""nationality"": ""United States of America"", ""place_of_birth"": ""Seattle, Washington, USA"", ""address"": ""4211 Eastlake Avenue E, Apt 302, Seattle, WA 98102"", ""issue_date"": ""2025-01-15"", ""expiration_date"": ""2035-01-14"", ""issuing_authority"": ""U.S. Department of State""}","[{""type"": ""NAME"", ""value"": ""Emily Grace Walker""}, {""type"": ""DATE_TIME"", ""value"": ""1995-06-07""}, {""type"": ""LOCATION"", ""value"": ""4211 Eastlake Avenue E, Apt 302, Seattle, WA 98102""}, {""type"": ""PASSPORT"", ""value"": ""US-20250041""}]",US Passport — standard 10-year validity
+SMP006,"OFFICIAL TRANSCRIPT
+
+Institution: Carnegie Mellon University
+5000 Forbes Avenue, Pittsburgh, PA 15213
+Office of the Registrar | registrar@cmu.edu
+
+Student Name: Arjun Mehta
+Student ID: CMU-2021-49872
+Program: Master of Science in Artificial Intelligence
+Department: School of Computer Science
+Academic Year: 2021 – 2023
+Graduation Date: May 12, 2023
+Cumulative GPA: 3.91 / 4.00
+Honors: Dean's List (All Semesters)
+
+COURSE RECORD
+Fall 2021:
+  10-701 Introduction to Machine Learning       A  (12 units)
+  10-715 Advanced Natural Language Processing   A  (12 units)
+  10-725 Convex Optimization                    A- (12 units)
+
+Spring 2022:
+  10-708 Probabilistic Graphical Models         A  (12 units)
+  10-617 Intermediate Deep Learning             A  (12 units)
+  10-623 Generative AI                          A  (12 units)
+
+Fall 2022 – Spring 2023:
+  10-900 Master's Thesis Research               A  (48 units)
+  Thesis: ""Efficient Fine-Tuning of Large Language Models via LoRA""
+  Advisor: Prof. Ruslan Salakhutdinov
+
+DOI: 10.1184/R1/CMU.2023.4422
+
+This transcript is an official document of Carnegie Mellon University.
+Registrar: Patricia Monroe | Issued: June 1, 2023",academic,"{""document_type"": ""transcript"", ""student_name"": ""Arjun Mehta"", ""student_id"": ""CMU-2021-49872"", ""institution_name"": ""Carnegie Mellon University"", ""degree_program"": ""Master of Science in Artificial Intelligence"", ""graduation_date"": ""2023-05-12"", ""gpa"": ""3.91"", ""doi"": ""10.1184/R1/CMU.2023.4422"", ""courses"": [""Introduction to Machine Learning"", ""Advanced NLP"", ""Convex Optimization"", ""Probabilistic Graphical Models"", ""Deep Learning"", ""Generative AI"", ""Master Thesis Research""], ""honors"": ""Dean's List (All Semesters)""}","[{""type"": ""NAME"", ""value"": ""Arjun Mehta""}, {""type"": ""STUDENT_ID"", ""value"": ""CMU-2021-49872""}, {""type"": ""EMAIL"", ""value"": ""registrar@cmu.edu""}, {""type"": ""LOCATION"", ""value"": ""5000 Forbes Avenue, Pittsburgh, PA 15213""}, {""type"": ""NAME"", ""value"": ""Patricia Monroe""}]",CMU MS-AI transcript with thesis and DOI

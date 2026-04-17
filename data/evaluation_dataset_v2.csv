@@ -1,0 +1,1002 @@
+document_id,document_text,ground_truth_class,ground_truth_fields,ground_truth_pii,notes
+FIN005,"INVOICE
+Invoice #: INV-2024-4401
+Date: April 2, 2024
+Due Date: May 2, 2024
+
+FROM:
+Apex Digital Marketing Agency
+3300 Fillmore Street, Suite 100
+Chicago, IL 60614
+Phone: (312) 555-2100
+Email: invoices@apexdigital.com
+Tax ID: 36-7712345
+
+BILL TO:
+Nathan Brooks
+Chief Marketing Officer
+Pinnacle Retail Group
+400 N Michigan Avenue, Suite 1200
+Chicago, IL 60611
+Email: nathan.brooks@pinnacleretail.com
+Phone: (312) 555-8844
+
+SERVICES:
+1. Social Media Campaign Management (April) — $4,200.00
+2. SEO Optimization Package — $1,800.00
+3. Google Ads Management (30 days) — $2,500.00
+4. Content Creation (10 blog posts) — $1,500.00
+5. Analytics Dashboard Setup — $700.00
+
+Subtotal: $10,700.00
+Sales Tax (10.25%): $1,096.75
+TOTAL DUE: $11,796.75
+
+Payment: ACH Transfer preferred
+Bank: Chase Bank | Account: 7788990011 | Routing: 071000013
+Late fee: 2% per month after due date",financial_document,"{""document_number"": ""INV-2024-4401"", ""document_date"": ""2024-04-02"", ""due_date"": ""2024-05-02"", ""issuer_name"": ""Apex Digital Marketing Agency"", ""issuer_address"": ""3300 Fillmore Street, Suite 100, Chicago, IL 60614"", ""recipient_name"": ""Nathan Brooks"", ""recipient_address"": ""400 N Michigan Avenue, Suite 1200, Chicago, IL 60611"", ""total_amount"": 11796.75, ""tax_amount"": 1096.75, ""currency"": ""USD"", ""payment_method"": ""ACH Transfer"", ""line_items"": [""Social Media Campaign Management - $4200"", ""SEO Optimization - $1800"", ""Google Ads Management - $2500"", ""Content Creation - $1500"", ""Analytics Setup - $700""]}","[{""type"": ""NAME"", ""value"": ""Nathan Brooks""}, {""type"": ""EMAIL"", ""value"": ""invoices@apexdigital.com""}, {""type"": ""EMAIL"", ""value"": ""nathan.brooks@pinnacleretail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(312) 555-2100""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(312) 555-8844""}, {""type"": ""LOCATION"", ""value"": ""3300 Fillmore Street, Suite 100, Chicago, IL 60614""}, {""type"": ""LOCATION"", ""value"": ""400 N Michigan Avenue, Suite 1200, Chicago, IL 60611""}, {""type"": ""US_BANK_NUMBER"", ""value"": ""7788990011""}]",Digital marketing agency invoice with multiple services
+FIN006,"PURCHASE ORDER
+PO Number: PO-2024-0987
+PO Date: January 22, 2024
+Delivery Date: February 15, 2024
+
+VENDOR:
+TechSupply Wholesale Inc.
+9800 Industrial Blvd
+Dallas, TX 75201
+Phone: (214) 555-3300
+Email: orders@techsupply.com
+
+SHIP TO:
+GlobalTech Manufacturing
+Attn: Amanda Rivera, Procurement
+2500 Commerce Drive
+Houston, TX 77002
+Phone: (713) 555-6600
+
+ITEMS ORDERED:
+1. Laptop (Dell XPS 15) x 20 = $32,000.00
+2. Docking Station x 20 = $4,000.00
+3. Wireless Mouse & Keyboard x 20 = $1,200.00
+4. External SSD 1TB x 20 = $2,800.00
+5. Monitor 27"" 4K x 10 = $5,500.00
+
+Subtotal: $45,500.00
+Shipping & Handling: $350.00
+Tax Exempt (Manufacturing): $0.00
+TOTAL: $45,850.00
+
+Terms: Net 45
+Authorized by: James Kim, VP Operations
+Signature: ___________________",financial_document,"{""document_number"": ""PO-2024-0987"", ""document_date"": ""2024-01-22"", ""due_date"": ""2024-03-08"", ""issuer_name"": ""GlobalTech Manufacturing"", ""issuer_address"": ""2500 Commerce Drive, Houston, TX 77002"", ""recipient_name"": ""TechSupply Wholesale Inc."", ""recipient_address"": ""9800 Industrial Blvd, Dallas, TX 75201"", ""total_amount"": 45850.0, ""tax_amount"": 0.0, ""currency"": ""USD"", ""payment_method"": ""Net 45"", ""line_items"": [""Dell XPS 15 x20 - $32000"", ""Docking Station x20 - $4000"", ""Mouse & Keyboard x20 - $1200"", ""External SSD x20 - $2800"", ""Monitor 27 x10 - $5500""]}","[{""type"": ""NAME"", ""value"": ""Amanda Rivera""}, {""type"": ""NAME"", ""value"": ""James Kim""}, {""type"": ""EMAIL"", ""value"": ""orders@techsupply.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(214) 555-3300""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(713) 555-6600""}, {""type"": ""LOCATION"", ""value"": ""9800 Industrial Blvd, Dallas, TX 75201""}, {""type"": ""LOCATION"", ""value"": ""2500 Commerce Drive, Houston, TX 77002""}]",Purchase order for IT hardware equipment
+FIN007,"CREDIT CARD STATEMENT
+American Express | Statement Period: March 1-31, 2024
+Statement Date: April 3, 2024
+Account Number: XXXX-XXXXX-X4421
+
+Account Holder: Dr. Patricia Wong
+500 Lake Shore Drive, Apt 18A
+Chicago, IL 60611
+
+Credit Limit: $25,000 | Available Credit: $18,342.15
+Previous Balance: $3,200.00
+Payments: -$3,200.00
+New Charges: $6,657.85
+Fees: $0.00
+TOTAL AMOUNT DUE: $6,657.85
+Minimum Payment: $150.00
+Payment Due Date: April 28, 2024
+
+TRANSACTIONS:
+Mar 03 - United Airlines - $1,245.00
+Mar 07 - Marriott Chicago - $892.00
+Mar 10 - Amazon Business - $334.50
+Mar 15 - Whole Foods Market - $187.35
+Mar 18 - Apple Store - $1,299.00
+Mar 22 - Uber (x12 rides) - $340.00
+Mar 28 - Restaurant Le Bernardin - $560.00
+Mar 30 - CVS Pharmacy - $80.00
+Mar 31 - Spotify Premium - $9.99 (x2)
+Note: 64 pts rewards earned this period
+
+Customer Service: 1-800-528-4800
+Online: americanexpress.com",financial_document,"{""document_number"": ""XXXX-XXXXX-X4421"", ""document_date"": ""2024-04-03"", ""due_date"": ""2024-04-28"", ""issuer_name"": ""American Express"", ""issuer_address"": ""New York, NY"", ""recipient_name"": ""Dr. Patricia Wong"", ""recipient_address"": ""500 Lake Shore Drive, Apt 18A, Chicago, IL 60611"", ""total_amount"": 6657.85, ""tax_amount"": 0.0, ""currency"": ""USD"", ""payment_method"": ""Credit Card""}","[{""type"": ""NAME"", ""value"": ""Patricia Wong""}, {""type"": ""LOCATION"", ""value"": ""500 Lake Shore Drive, Apt 18A, Chicago, IL 60611""}, {""type"": ""PHONE_NUMBER"", ""value"": ""1-800-528-4800""}]",Credit card statement with transaction history
+FIN008,"UTILITY BILL
+Pacific Gas & Electric Company (PG&E)
+P.O. Box 997300, Sacramento, CA 95899
+Customer Service: 1-800-743-5000
+
+Account Number: 0987-654-3210
+Service Address: 1422 Monterey Blvd, San Francisco, CA 94131
+Billing Date: March 28, 2024
+Due Date: April 18, 2024
+
+Account Holder:
+Marcus Johnson
+1422 Monterey Blvd
+San Francisco, CA 94131
+Email: marcus.j@gmail.com
+
+CURRENT CHARGES:
+Electric Service (Mar 1-28): $142.50
+Gas Service (Mar 1-28): $68.25
+City & County Surcharge: $8.40
+State Regulatory Fee: $3.15
+Subtotal: $222.30
+Previous Balance: $0.00 (Paid)
+TOTAL DUE: $222.30
+
+Usage:
+Electric: 450 kWh (Avg daily: 16.07 kWh)
+Gas: 18 therms
+
+Paperless billing enrolled. Pay online: pge.com/pay",financial_document,"{""document_number"": ""0987-654-3210"", ""document_date"": ""2024-03-28"", ""due_date"": ""2024-04-18"", ""issuer_name"": ""Pacific Gas & Electric Company"", ""issuer_address"": ""P.O. Box 997300, Sacramento, CA 95899"", ""recipient_name"": ""Marcus Johnson"", ""recipient_address"": ""1422 Monterey Blvd, San Francisco, CA 94131"", ""total_amount"": 222.3, ""tax_amount"": 11.55, ""currency"": ""USD"", ""payment_method"": ""Online/Auto-pay""}","[{""type"": ""NAME"", ""value"": ""Marcus Johnson""}, {""type"": ""EMAIL"", ""value"": ""marcus.j@gmail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""1-800-743-5000""}, {""type"": ""LOCATION"", ""value"": ""1422 Monterey Blvd, San Francisco, CA 94131""}]",Utility bill with usage details
+FIN009,"PAYSLIP / SALARY STATEMENT
+Pay Period: April 1-30, 2024
+Pay Date: April 30, 2024
+Employee ID: EMP-7734
+
+Employee: Sophie Turner
+Position: Senior UX Designer
+Department: Product Design
+123 Oak Park Ave, Austin, TX 78704
+
+Employer: Innovate Studios LLC
+500 W 6th Street, Austin, TX 78701
+EIN: 73-4456789
+
+EARNINGS:
+Base Salary (Monthly): $7,916.67
+Overtime (4 hrs @ $74.22/hr): $296.88
+Performance Bonus: $1,000.00
+Total Gross: $9,213.55
+
+DEDUCTIONS:
+Federal Income Tax: -$1,842.71
+State Income Tax (TX): $0.00
+Social Security (6.2%): -$571.24
+Medicare (1.45%): -$133.60
+Health Insurance Premium: -$220.00
+401(k) Contribution (6%): -$552.81
+Total Deductions: -$3,320.36
+
+NET PAY: $5,893.19
+Direct Deposit: Chase Bank ****6622
+
+YTD Gross: $36,854.20 | YTD Tax: $9,213.30",financial_document,"{""document_number"": ""EMP-7734"", ""document_date"": ""2024-04-30"", ""due_date"": null, ""issuer_name"": ""Innovate Studios LLC"", ""issuer_address"": ""500 W 6th Street, Austin, TX 78701"", ""recipient_name"": ""Sophie Turner"", ""recipient_address"": ""123 Oak Park Ave, Austin, TX 78704"", ""total_amount"": 5893.19, ""tax_amount"": 1842.71, ""currency"": ""USD"", ""payment_method"": ""Direct Deposit""}","[{""type"": ""NAME"", ""value"": ""Sophie Turner""}, {""type"": ""LOCATION"", ""value"": ""123 Oak Park Ave, Austin, TX 78704""}, {""type"": ""LOCATION"", ""value"": ""500 W 6th Street, Austin, TX 78701""}]",Monthly payslip with deductions breakdown
+FIN010,"RENT INVOICE
+Invoice #: RENT-2024-0302
+Date: March 1, 2024
+Due Date: March 5, 2024
+
+Landlord / Property Manager:
+Sunset Properties LLC
+8800 Sunset Blvd, Suite 300
+Los Angeles, CA 90069
+Phone: (310) 555-1122
+Email: accounts@sunsetproperties.com
+
+Tenant:
+Oliver Zhang
+2240 Canyon Drive, Apt 4B
+Los Angeles, CA 90068
+Phone: (213) 555-9900
+Email: oliver.zhang@email.com
+
+CHARGES:
+Monthly Rent (March 2024): $3,200.00
+Parking (Covered Space #12): $150.00
+Pet Fee (1 dog): $75.00
+Subtotal: $3,425.00
+Late Fee (waived): $0.00
+TOTAL DUE: $3,425.00
+
+Payment Methods: Venmo @SunsetProps | Zelle | Check
+Lease Term: Jan 1, 2024 – Dec 31, 2024",financial_document,"{""document_number"": ""RENT-2024-0302"", ""document_date"": ""2024-03-01"", ""due_date"": ""2024-03-05"", ""issuer_name"": ""Sunset Properties LLC"", ""issuer_address"": ""8800 Sunset Blvd, Suite 300, Los Angeles, CA 90069"", ""recipient_name"": ""Oliver Zhang"", ""recipient_address"": ""2240 Canyon Drive, Apt 4B, Los Angeles, CA 90068"", ""total_amount"": 3425.0, ""tax_amount"": 0.0, ""currency"": ""USD"", ""payment_method"": ""Venmo/Zelle/Check""}","[{""type"": ""NAME"", ""value"": ""Oliver Zhang""}, {""type"": ""EMAIL"", ""value"": ""accounts@sunsetproperties.com""}, {""type"": ""EMAIL"", ""value"": ""oliver.zhang@email.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(310) 555-1122""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(213) 555-9900""}, {""type"": ""LOCATION"", ""value"": ""2240 Canyon Drive, Apt 4B, Los Angeles, CA 90068""}]",Monthly rent invoice with additional charges
+RES005,"CURRICULUM VITAE
+
+ISABELLA NAKAMURA
+DevOps Engineer | Cloud Infrastructure Specialist
+
+Email: isa.nakamura@promail.com | Phone: (503) 555-4477
+Location: Portland, OR 97201 | LinkedIn: linkedin.com/in/isanakamura
+
+SUMMARY
+DevOps Engineer with 7 years building and managing scalable cloud infrastructure on AWS and GCP. 
+Expert in Kubernetes, Terraform, and CI/CD pipelines. Reduced deployment time by 65% at current role.
+
+EXPERIENCE
+Senior DevOps Engineer | Stripe Inc.
+San Francisco, CA | March 2021 – Present
+• Designed multi-region Kubernetes clusters handling 500K+ daily transactions
+• Built CI/CD pipelines reducing release cycle from 2 weeks to 2 days
+• Implemented GitOps practices with ArgoCD, cutting configuration drift incidents by 90%
+• On-call rotation lead for 99.99% SLA payment infrastructure
+
+DevOps Engineer | Nike Digital
+Portland, OR | August 2018 – February 2021
+• Migrated 40+ microservices to AWS EKS with zero downtime
+• Automated infrastructure provisioning with Terraform saving 30 hrs/week
+• Managed Datadog observability stack for e-commerce platform (50M monthly users)
+
+EDUCATION
+B.S. Computer Engineering
+Oregon State University | Corvallis, OR | Graduated: June 2018 | GPA: 3.77
+
+SKILLS
+Cloud: AWS (Solutions Architect Certified), GCP, Azure
+IaC: Terraform, Pulumi, CloudFormation
+Containers: Docker, Kubernetes, Helm, ArgoCD
+CI/CD: GitHub Actions, Jenkins, CircleCI
+Monitoring: Datadog, Prometheus, Grafana, PagerDuty
+Languages: Python, Bash, Go
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect – Professional (2023)
+• Certified Kubernetes Administrator (CKA) – 2022
+• HashiCorp Certified: Terraform Associate – 2021",resume,"{""candidate_name"": ""Isabella Nakamura"", ""email"": ""isa.nakamura@promail.com"", ""phone"": ""(503) 555-4477"", ""address"": ""Portland, OR 97201"", ""linkedin_url"": ""linkedin.com/in/isanakamura"", ""summary"": ""DevOps Engineer with 7 years building and managing scalable cloud infrastructure on AWS and GCP. Expert in Kubernetes, Terraform, and CI/CD pipelines."", ""education"": [{""degree"": ""B.S. Computer Engineering"", ""institution"": ""Oregon State University"", ""graduation_date"": ""2018-06-01"", ""gpa"": 3.77}], ""work_experience"": [{""title"": ""Senior DevOps Engineer"", ""company"": ""Stripe Inc."", ""start_date"": ""2021-03-01"", ""end_date"": null}, {""title"": ""DevOps Engineer"", ""company"": ""Nike Digital"", ""start_date"": ""2018-08-01"", ""end_date"": ""2021-02-01""}], ""skills"": [""AWS"", ""Kubernetes"", ""Terraform"", ""Docker"", ""Python"", ""Go""], ""certifications"": [""AWS Solutions Architect Professional 2023"", ""CKA 2022"", ""HashiCorp Terraform Associate 2021""], ""languages"": [""English""]}","[{""type"": ""NAME"", ""value"": ""Isabella Nakamura""}, {""type"": ""EMAIL"", ""value"": ""isa.nakamura@promail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(503) 555-4477""}, {""type"": ""LOCATION"", ""value"": ""Portland, OR 97201""}]",Senior DevOps engineer resume
+RES006,"RESUME
+
+MARCUS OKONKWO
+Product Manager | B2B SaaS
+
+Contact: marcus.okonkwo@gmail.com | +1 (650) 555-7723
+Address: 890 Castro Street, San Francisco, CA 94114
+LinkedIn: linkedin.com/in/marcus-okonkwo-pm
+
+PROFESSIONAL PROFILE
+Strategic Product Manager with 9 years driving product vision and growth for B2B SaaS platforms. 
+Launched 3 products from 0 to $10M+ ARR. PMP and CSPO certified. Cross-functional leader.
+
+WORK HISTORY
+Director of Product | Salesforce (Slack Division)
+San Francisco, CA | January 2022 – Present
+• Define and execute product roadmap for Slack's enterprise workflow automation features
+• Grew automation DAU from 800K to 3.2M in 18 months
+• Lead 12-person cross-functional squad (Eng, Design, Data, Legal)
+• Drove $2.4M in net new ARR through integrations marketplace launch
+
+Senior Product Manager | HubSpot
+Cambridge, MA | June 2018 – December 2021
+• Owned CRM pipeline management product used by 120K+ SMBs
+• Launched 4 major feature releases generating $8M ARR
+• Improved onboarding activation rate from 48% to 71%
+
+Product Manager | Zendesk
+San Francisco, CA | July 2015 – May 2018
+• Managed ticketing and live chat products for enterprise segment
+• Reduced customer churn by 18% through feature improvements
+
+EDUCATION
+MBA – Technology Management
+Stanford Graduate School of Business | 2015 | GPA: 3.91
+BSc Business Administration | UC Berkeley | 2013 | GPA: 3.79
+
+SKILLS
+Product: Roadmapping, OKRs, A/B Testing, User Research, Agile/Scrum
+Analytics: Mixpanel, Amplitude, Tableau, SQL
+Tools: JIRA, Confluence, Figma, Salesforce
+Certifications: PMP, CSPO, Google Analytics",resume,"{""candidate_name"": ""Marcus Okonkwo"", ""email"": ""marcus.okonkwo@gmail.com"", ""phone"": ""+1 (650) 555-7723"", ""address"": ""890 Castro Street, San Francisco, CA 94114"", ""linkedin_url"": ""linkedin.com/in/marcus-okonkwo-pm"", ""summary"": ""Strategic Product Manager with 9 years driving product vision and growth for B2B SaaS platforms. Launched 3 products from 0 to $10M+ ARR."", ""education"": [{""degree"": ""MBA Technology Management"", ""institution"": ""Stanford Graduate School of Business"", ""graduation_date"": ""2015-01-01"", ""gpa"": 3.91}, {""degree"": ""BSc Business Administration"", ""institution"": ""UC Berkeley"", ""graduation_date"": ""2013-01-01"", ""gpa"": 3.79}], ""work_experience"": [{""title"": ""Director of Product"", ""company"": ""Salesforce (Slack Division)"", ""start_date"": ""2022-01-01"", ""end_date"": null}, {""title"": ""Senior Product Manager"", ""company"": ""HubSpot"", ""start_date"": ""2018-06-01"", ""end_date"": ""2021-12-01""}], ""skills"": [""Product Management"", ""OKRs"", ""A/B Testing"", ""SQL"", ""Figma"", ""JIRA""], ""certifications"": [""PMP"", ""CSPO"", ""Google Analytics""], ""languages"": [""English""]}","[{""type"": ""NAME"", ""value"": ""Marcus Okonkwo""}, {""type"": ""EMAIL"", ""value"": ""marcus.okonkwo@gmail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""+1 (650) 555-7723""}, {""type"": ""LOCATION"", ""value"": ""890 Castro Street, San Francisco, CA 94114""}]",Senior product manager B2B SaaS resume
+RES007,"BIODATA
+
+Name: Riya Mehta
+Contact: riya.mehta@outlook.com | (469) 555-2211
+Address: 156 McKinney Avenue, Dallas, TX 75204
+LinkedIn: linkedin.com/in/riyamehta-cy
+
+OBJECTIVE
+Cybersecurity Analyst with 4 years in threat detection, incident response, and penetration testing. 
+Seeking Senior Security Engineer role at a Fortune 500 company.
+
+PROFESSIONAL EXPERIENCE
+Security Analyst II | AT&T Cybersecurity
+Dallas, TX | September 2021 – Present
+• Monitor SIEM (Splunk) alerts; investigate 150+ security incidents monthly
+• Conduct vulnerability assessments on 2,000+ endpoint fleet
+• Authored 15 threat intelligence reports adopted company-wide
+• Led red team exercise exposing 3 critical misconfigurations
+
+Junior Security Analyst | Deloitte Cyber
+Dallas, TX | July 2020 – August 2021
+• Performed penetration testing on web apps and internal networks
+• Assisted in PCI-DSS compliance audit for a $2B retailer
+
+EDUCATION
+B.S. Cybersecurity & Information Assurance
+Texas A&M University – Commerce | May 2020 | GPA: 3.81
+
+TECHNICAL SKILLS
+SIEM/SOC: Splunk, IBM QRadar, Microsoft Sentinel
+Pentest: Metasploit, Burp Suite, Nmap, Kali Linux
+Cloud Security: AWS Security Hub, Azure Defender
+Compliance: PCI-DSS, NIST CSF, ISO 27001
+Languages: Python, PowerShell, Bash
+
+CERTIFICATIONS
+• CompTIA Security+ (2020)
+• CEH – Certified Ethical Hacker (2021)
+• OSCP – Offensive Security Certified Professional (2023)",resume,"{""candidate_name"": ""Riya Mehta"", ""email"": ""riya.mehta@outlook.com"", ""phone"": ""(469) 555-2211"", ""address"": ""156 McKinney Avenue, Dallas, TX 75204"", ""linkedin_url"": ""linkedin.com/in/riyamehta-cy"", ""summary"": ""Cybersecurity Analyst with 4 years in threat detection, incident response, and penetration testing."", ""education"": [{""degree"": ""B.S. Cybersecurity & Information Assurance"", ""institution"": ""Texas A&M University \u2013 Commerce"", ""graduation_date"": ""2020-05-01"", ""gpa"": 3.81}], ""work_experience"": [{""title"": ""Security Analyst II"", ""company"": ""AT&T Cybersecurity"", ""start_date"": ""2021-09-01"", ""end_date"": null}, {""title"": ""Junior Security Analyst"", ""company"": ""Deloitte Cyber"", ""start_date"": ""2020-07-01"", ""end_date"": ""2021-08-01""}], ""skills"": [""Splunk"", ""Penetration Testing"", ""Python"", ""Kali Linux"", ""AWS Security""], ""certifications"": [""CompTIA Security+ 2020"", ""CEH 2021"", ""OSCP 2023""], ""languages"": [""English"", ""Hindi""]}","[{""type"": ""NAME"", ""value"": ""Riya Mehta""}, {""type"": ""EMAIL"", ""value"": ""riya.mehta@outlook.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(469) 555-2211""}, {""type"": ""LOCATION"", ""value"": ""156 McKinney Avenue, Dallas, TX 75204""}]",Cybersecurity analyst resume with certifications
+RES008,"CURRICULUM VITAE
+
+Prof. Samuel Adeyemi, PhD
+Professor of Economics | Policy Researcher
+
+Email: s.adeyemi@bostonuniv.edu
+Phone: (617) 555-3309
+Office: Boston University, 270 Bay State Road, Boston, MA 02215
+LinkedIn: linkedin.com/in/prof-adeyemi
+
+ACADEMIC POSITIONS
+Full Professor of Economics | Boston University
+Boston, MA | July 2019 – Present
+Research focus: Development economics, Sub-Saharan Africa, fiscal policy
+• Teach ECON 601 (Graduate Macroeconomics) and ECON 402 (Development Economics)
+• PI on $1.2M NSF grant: ""Tax Policy and Economic Growth in Developing Economies""
+
+Associate Professor | Georgetown University
+Washington, DC | August 2013 – June 2019
+• Developed graduate elective: ""Health Economics in Low-Income Countries""
+• Published 18 peer-reviewed papers; h-index: 22
+
+EDUCATION
+PhD Economics | London School of Economics | 2013
+MSc Development Economics | Oxford University | 2009
+BSc Economics | University of Lagos | 2007 | First Class Honours
+
+PUBLICATIONS (Selected)
+[1] Adeyemi, S. (2024). ""Fiscal Multipliers in Sub-Saharan Africa."" Journal of Development Economics, 162.
+[2] Adeyemi, S. & Park, K. (2023). ""Cash Transfer Programs and Child Health."" World Development, 174.
+[3] Adeyemi, S. (2021). ""Currency Devaluation and Poverty Traps."" Review of Economic Studies, 88(3).
+
+SKILLS
+Research: Stata, R, Python, MATLAB, LaTeX
+Languages: English (native), Yoruba (native), French (advanced)",resume,"{""candidate_name"": ""Samuel Adeyemi"", ""email"": ""s.adeyemi@bostonuniv.edu"", ""phone"": ""(617) 555-3309"", ""address"": ""Boston University, 270 Bay State Road, Boston, MA 02215"", ""linkedin_url"": ""linkedin.com/in/prof-adeyemi"", ""summary"": ""Professor of Economics with research focus on development economics, Sub-Saharan Africa, and fiscal policy."", ""education"": [{""degree"": ""PhD Economics"", ""institution"": ""London School of Economics"", ""graduation_date"": ""2013-01-01""}, {""degree"": ""MSc Development Economics"", ""institution"": ""Oxford University"", ""graduation_date"": ""2009-01-01""}], ""work_experience"": [{""title"": ""Full Professor of Economics"", ""company"": ""Boston University"", ""start_date"": ""2019-07-01"", ""end_date"": null}, {""title"": ""Associate Professor"", ""company"": ""Georgetown University"", ""start_date"": ""2013-08-01"", ""end_date"": ""2019-06-01""}], ""skills"": [""Stata"", ""R"", ""Python"", ""MATLAB"", ""LaTeX"", ""Economics Research""], ""certifications"": [], ""languages"": [""English"", ""Yoruba"", ""French""]}","[{""type"": ""NAME"", ""value"": ""Samuel Adeyemi""}, {""type"": ""EMAIL"", ""value"": ""s.adeyemi@bostonuniv.edu""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(617) 555-3309""}, {""type"": ""LOCATION"", ""value"": ""270 Bay State Road, Boston, MA 02215""}]",Academic economics professor CV with publications
+RES009,"RESUME
+
+ZHANG WEI (ALEX)
+Mechanical Engineer | Aerospace & Defense
+
+Email: alex.zhang.eng@gmail.com | Mobile: (832) 555-0044
+Location: Houston, TX 77058
+LinkedIn: linkedin.com/in/alexzhang-mech
+
+SUMMARY
+Mechanical Engineer with 5 years at NASA and Lockheed Martin designing structural components 
+for spacecraft and defense systems. PE licensed. Expert in FEA, CAD design, and materials science.
+
+WORK EXPERIENCE
+Structural Engineer II | NASA Johnson Space Center
+Houston, TX | June 2021 – Present
+• Design and qualify structural components for Artemis lunar gateway module
+• Perform FEA simulations (ANSYS) for launch load and thermal cycling analysis
+• Collaborate with international partners (ESA, JAXA) on ISS hardware upgrades
+• Processed 120+ design change orders following AS9100 quality standards
+
+Mechanical Engineer I | Lockheed Martin Space
+Denver, CO | July 2019 – May 2021
+• Designed titanium brackets for SBIRS missile warning satellite
+• Conducted materials testing per MIL-SPEC standards
+• Supported CDR for GPS Block III satellite program
+
+EDUCATION
+B.S. Mechanical Engineering (Aerospace Concentration)
+Rice University | Houston, TX | May 2019 | GPA: 3.88
+Dean's List: 7 semesters
+
+SKILLS & TOOLS
+CAD: CATIA V5, SolidWorks, NX
+Analysis: ANSYS, NASTRAN, MATLAB
+Standards: AS9100, MIL-SPEC, NASA-STD-5020
+Programming: Python, MATLAB
+
+CERTIFICATIONS
+• Professional Engineer (PE) – Texas (2023)
+• Solidworks Certified Professional (CSWP)",resume,"{""candidate_name"": ""Zhang Wei"", ""email"": ""alex.zhang.eng@gmail.com"", ""phone"": ""(832) 555-0044"", ""address"": ""Houston, TX 77058"", ""linkedin_url"": ""linkedin.com/in/alexzhang-mech"", ""summary"": ""Mechanical Engineer with 5 years at NASA and Lockheed Martin designing structural components for spacecraft and defense systems."", ""education"": [{""degree"": ""B.S. Mechanical Engineering (Aerospace Concentration)"", ""institution"": ""Rice University"", ""graduation_date"": ""2019-05-01"", ""gpa"": 3.88}], ""work_experience"": [{""title"": ""Structural Engineer II"", ""company"": ""NASA Johnson Space Center"", ""start_date"": ""2021-06-01"", ""end_date"": null}, {""title"": ""Mechanical Engineer I"", ""company"": ""Lockheed Martin Space"", ""start_date"": ""2019-07-01"", ""end_date"": ""2021-05-01""}], ""skills"": [""CATIA V5"", ""SolidWorks"", ""ANSYS"", ""NASTRAN"", ""Python"", ""MATLAB""], ""certifications"": [""Professional Engineer PE Texas 2023"", ""CSWP""], ""languages"": [""English"", ""Mandarin""]}","[{""type"": ""NAME"", ""value"": ""Zhang Wei""}, {""type"": ""EMAIL"", ""value"": ""alex.zhang.eng@gmail.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(832) 555-0044""}, {""type"": ""LOCATION"", ""value"": ""Houston, TX 77058""}]",Aerospace mechanical engineer resume with NASA experience
+JOB004,"LETTER OF OFFER
+
+February 5, 2024
+
+Ms. Keiko Tanaka
+4421 Maple Street
+Seattle, WA 98103
+
+Dear Ms. Tanaka,
+
+On behalf of Amazon Web Services, Inc., I am thrilled to extend this offer of employment.
+
+POSITION: Senior Solutions Architect
+LEVEL: L6
+DEPARTMENT: AWS Enterprise Solutions
+LOCATION: Seattle, WA (Hybrid — 2 days/week in office)
+START DATE: March 18, 2024
+EMPLOYMENT: Full-time, Regular
+REPORTS TO: Principal Architect, Enterprise West
+
+COMPENSATION:
+Base Salary: $198,000 per year
+Sign-on Bonus: $50,000 (Year 1 only, paid month 1)
+Restricted Stock Units (RSUs): $320,000 face value vesting over 4 years
+Target Annual Bonus: 15% of base (based on individual and company performance)
+
+BENEFITS:
+• Medical/Dental/Vision: $0 premium for employee (Amazon covered)
+• 401(k): dollar-for-dollar match up to 4% after 90 days
+• Vacation: 15 days Year 1, 20 days Year 2+, unlimited sick leave
+• Parental leave: 20 weeks primary, 6 weeks secondary
+• Employee stock purchase plan (ESPP) at 10% discount
+• Relocation package: up to $15,000 (if applicable)
+
+CONDITIONS:
+• Successful background investigation
+• Drug-free workplace policy acknowledgment
+• Signing of Non-Disclosure and Invention Assignment Agreement
+
+Please return the signed offer by February 20, 2024.
+
+Questions: recruiting@amazon.com | (206) 555-6000
+
+Sincerely,
+Alice Forsythe
+Sr. Talent Acquisition Partner
+Amazon Web Services",job_offer,"{""candidate_name"": ""Keiko Tanaka"", ""company_name"": ""Amazon Web Services Inc."", ""position_title"": ""Senior Solutions Architect"", ""offer_date"": ""2024-02-05"", ""start_date"": ""2024-03-18"", ""salary"": ""$198,000/year"", ""employment_type"": ""Full-time"", ""work_location"": ""Seattle, WA"", ""department"": ""AWS Enterprise Solutions"", ""reporting_to"": ""Principal Architect Enterprise West"", ""benefits"": ""Medical/Dental/Vision, 401k match 4%, RSUs, 15 days vacation, parental leave 20 weeks"", ""conditions"": ""Background check, NDA, drug-free policy"", ""deadline_to_accept"": ""2024-02-20""}","[{""type"": ""NAME"", ""value"": ""Keiko Tanaka""}, {""type"": ""NAME"", ""value"": ""Alice Forsythe""}, {""type"": ""EMAIL"", ""value"": ""recruiting@amazon.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(206) 555-6000""}, {""type"": ""LOCATION"", ""value"": ""4421 Maple Street, Seattle, WA 98103""}]",Amazon AWS senior solutions architect job offer with RSUs
+JOB005,"APPOINTMENT / OFFER LETTER
+
+Infosys Limited
+Electronics City, Hosur Road
+Bengaluru, Karnataka 560100, India
+
+Date: 10 March 2024
+Reference: INF/HR/2024/APR/7723
+
+To,
+Mr. Arjun Sharma
+Flat 302, Green Valley Apartments
+Koramangala, Bengaluru – 560034
+
+Dear Mr. Arjun Sharma,
+
+We are pleased to offer you the position of Associate Technology Lead with Infosys Limited.
+
+POSITION: Associate Technology Lead (Java/Microservices)
+BUSINESS UNIT: Digital Experience
+LOCATION: Bengaluru, India (initially); may be deputed to client site globally
+JOINING DATE: 15 April 2024
+GRADE: Band C1
+
+COMPENSATION (Annual CTC: ₹18,50,000):
+Fixed Component:
+  Basic Salary: ₹7,40,000
+  House Rent Allowance: ₹3,70,000
+  Special Allowance: ₹3,70,000
+Variable Pay (target): ₹1,85,000
+Provident Fund (employer): ₹88,800
+Gratuity (accrual): ₹35,577
+Medical Insurance: ₹61,623
+
+BENEFITS:
+• Group medical insurance (self + family): ₹5 lakh
+• Term life insurance: ₹50 lakh
+• 18 days earned leave + 12 sick leave per year
+• Infy learning platform (100+ certifications)
+
+CONDITIONS:
+• Background verification by AuthBridge
+• Submission of original qualification certificates
+• 2-year service agreement (training recovery clause)
+• Notice period: 2 months after confirmation
+
+Please confirm acceptance by 20 March 2024.
+HR Contact: hrconnect@infosys.com | +91-80-2852-0261",job_offer,"{""candidate_name"": ""Arjun Sharma"", ""company_name"": ""Infosys Limited"", ""position_title"": ""Associate Technology Lead"", ""offer_date"": ""2024-03-10"", ""start_date"": ""2024-04-15"", ""salary"": ""\u20b918,50,000 CTC"", ""employment_type"": ""Full-time"", ""work_location"": ""Bengaluru, India"", ""department"": ""Digital Experience"", ""reporting_to"": null, ""benefits"": ""Group medical insurance, term life, 18 days EL, Infy learning"", ""conditions"": ""Background verification, service agreement 2 years, notice period 2 months"", ""deadline_to_accept"": ""2024-03-20""}","[{""type"": ""NAME"", ""value"": ""Arjun Sharma""}, {""type"": ""EMAIL"", ""value"": ""hrconnect@infosys.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""+91-80-2852-0261""}, {""type"": ""LOCATION"", ""value"": ""Flat 302, Green Valley Apartments, Koramangala, Bengaluru 560034""}, {""type"": ""LOCATION"", ""value"": ""Electronics City, Hosur Road, Bengaluru 560100""}]",Indian IT company job offer letter with CTC breakdown
+JOB006,"OFFER OF EMPLOYMENT
+
+Crestwood General Hospital
+100 Medical Center Drive
+Minneapolis, MN 55404
+HR Department: (612) 555-8800 | hr@crestwoodhealth.org
+
+Date: January 20, 2024
+
+Dear Dr. James Osei,
+
+We are delighted to offer you the position of Staff Cardiologist at Crestwood General Hospital.
+
+POSITION DETAILS:
+Title: Staff Cardiologist (Interventional)
+Department: Cardiovascular Medicine
+Reports to: Chief of Cardiology, Dr. Helen Park
+Start Date: April 1, 2024
+Schedule: Full-time (1.0 FTE) | Monday–Friday + 1:4 weekend call
+Employment: Permanent, Exempt
+
+COMPENSATION:
+Annual Base Salary: $485,000
+Production Bonus: Up to $75,000 (RVU-based, threshold: 7,500 RVUs/year)
+Quality Incentive: Up to $25,000 (HEDIS quality metrics)
+Total Potential Annual Compensation: $585,000
+
+BENEFITS & SUPPORT:
+• Malpractice insurance (occurrence-based, tail covered): Included
+• CME Allowance: $7,500 per year + 5 days CME leave
+• Relocation: Up to $25,000
+• Retirement: 403(b) with 5% hospital match after 1 year
+• Health/dental/vision: 100% covered for physician + family
+
+CONDITIONS:
+• Minnesota medical license (active) required at start
+• DEA registration required
+• Credentialing and privileging approval by Medical Staff Office
+• Background check clearance
+
+Please sign and return by February 5, 2024.
+Dr. Carol Nguyen, Chief Medical Officer
+carol.nguyen@crestwoodhealth.org",job_offer,"{""candidate_name"": ""James Osei"", ""company_name"": ""Crestwood General Hospital"", ""position_title"": ""Staff Cardiologist (Interventional)"", ""offer_date"": ""2024-01-20"", ""start_date"": ""2024-04-01"", ""salary"": ""$485,000/year"", ""employment_type"": ""Full-time"", ""work_location"": ""Minneapolis, MN"", ""department"": ""Cardiovascular Medicine"", ""reporting_to"": ""Dr. Helen Park, Chief of Cardiology"", ""benefits"": ""Malpractice insurance, CME $7500, relocation $25000, 403b 5% match, health 100%"", ""conditions"": ""MN medical license, DEA registration, credentialing"", ""deadline_to_accept"": ""2024-02-05""}","[{""type"": ""NAME"", ""value"": ""James Osei""}, {""type"": ""NAME"", ""value"": ""Carol Nguyen""}, {""type"": ""EMAIL"", ""value"": ""hr@crestwoodhealth.org""}, {""type"": ""EMAIL"", ""value"": ""carol.nguyen@crestwoodhealth.org""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(612) 555-8800""}, {""type"": ""LOCATION"", ""value"": ""100 Medical Center Drive, Minneapolis, MN 55404""}]",Hospital physician job offer with compensation details
+JOB007,"REMOTE WORK OFFER LETTER
+
+TalentBridge Consulting Group
+Registered Address: 22 Wellington Street, Toronto, ON M5E 1W7, Canada
+
+Date: March 8, 2024
+
+Nadia Petrov
+67 River Valley Road
+Edmonton, AB T5J 3S4
+
+Dear Nadia,
+
+We are pleased to offer you the role of Senior Data Analyst (Remote) effective April 1, 2024.
+
+OFFER DETAILS:
+Position: Senior Data Analyst
+Team: Analytics & Insights
+Employment Type: Full-time, Permanent (Remote – Canada-wide)
+Start Date: April 1, 2024
+Reports to: Analytics Manager
+
+COMPENSATION:
+Annual Salary: CAD $115,000
+Performance Bonus: Up to 12% of base salary
+RRSP Matching: 4% employer match after 3 months
+Home Office Allowance: CAD $3,000 one-time setup
+
+BENEFITS:
+• Extended health, dental, vision (Sunlife plan) — 100% premium paid
+• 4 weeks vacation + 5 personal days
+• Parental leave top-up to 100% for 16 weeks
+• Professional development: CAD $2,500/year
+• Employee Assistance Program (EAP) — unlimited counselling
+
+CONDITIONS:
+• Reference checks satisfactory
+• Government of Canada security clearance (Level II)
+• Signed confidentiality agreement
+
+Acceptance deadline: March 22, 2024
+Questions: talent@talentbridge.ca | 1-800-555-0199
+
+Warm regards,
+Sophie Lavoie
+Director, People & Culture
+TalentBridge Consulting Group",job_offer,"{""candidate_name"": ""Nadia Petrov"", ""company_name"": ""TalentBridge Consulting Group"", ""position_title"": ""Senior Data Analyst"", ""offer_date"": ""2024-03-08"", ""start_date"": ""2024-04-01"", ""salary"": ""CAD $115,000/year"", ""employment_type"": ""Full-time Remote"", ""work_location"": ""Remote \u2013 Canada-wide"", ""department"": ""Analytics & Insights"", ""reporting_to"": ""Analytics Manager"", ""benefits"": ""Extended health/dental/vision, 4 weeks vacation, 16-week parental top-up, $2500 PD"", ""conditions"": ""Reference checks, security clearance Level II, confidentiality agreement"", ""deadline_to_accept"": ""2024-03-22""}","[{""type"": ""NAME"", ""value"": ""Nadia Petrov""}, {""type"": ""NAME"", ""value"": ""Sophie Lavoie""}, {""type"": ""EMAIL"", ""value"": ""talent@talentbridge.ca""}, {""type"": ""PHONE_NUMBER"", ""value"": ""1-800-555-0199""}, {""type"": ""LOCATION"", ""value"": ""67 River Valley Road, Edmonton, AB T5J 3S4""}]",Canadian remote work offer letter with CAD compensation
+MED004,"PATIENT VISIT SUMMARY
+Mount Sinai Hospital
+1 Gustave L. Levy Place, New York, NY 10029
+Phone: (212) 555-4200
+
+Date of Visit: February 28, 2024
+Visit Type: Urgent Care
+
+PATIENT INFORMATION:
+Name: Carlos Rivera
+Date of Birth: May 3, 1979
+Patient ID: MSH-112233
+Address: 88 Riverside Drive, New York, NY 10024
+Phone: (646) 555-8811
+
+ATTENDING PHYSICIAN:
+Dr. Linda Zhao, MD — Internal Medicine
+NPI: 1122334455
+
+CHIEF COMPLAINT: Persistent cough (3 weeks), low-grade fever, fatigue
+
+ASSESSMENT & DIAGNOSIS:
+Primary: Community-Acquired Pneumonia (ICD-10: J18.9)
+Secondary: Mild Dehydration (ICD-10: E86.0)
+
+VITAL SIGNS:
+BP: 122/78 mmHg | Temp: 100.6°F | HR: 92 bpm | SpO2: 96% | RR: 18/min
+
+PRESCRIBED MEDICATIONS:
+1. Amoxicillin-Clavulanate 875mg/125mg — twice daily × 7 days
+2. Dextromethorphan HBr 30mg — every 6 hours as needed (cough)
+3. Acetaminophen 500mg — every 6 hours for fever
+
+LAB RESULTS:
+CBC: WBC 13.2 K/uL (elevated), Hgb 14.1 g/dL
+CRP: 48 mg/L (elevated)
+Chest X-Ray: Right lower lobe infiltrate consistent with pneumonia
+
+FOLLOW-UP:
+Date: March 7, 2024
+If symptoms worsen or SpO2 drops below 93%, go to ER immediately
+
+NOTES: Patient advised rest, increased fluids, avoid smoking.",medical_record,"{""patient_name"": ""Carlos Rivera"", ""patient_id"": ""MSH-112233"", ""date_of_birth"": ""1979-05-03"", ""visit_date"": ""2024-02-28"", ""physician_name"": ""Dr. Linda Zhao"", ""department"": ""Internal Medicine"", ""diagnosis"": ""Community-Acquired Pneumonia, Mild Dehydration"", ""prescribed_medications"": [""Amoxicillin-Clavulanate 875mg/125mg"", ""Dextromethorphan 30mg"", ""Acetaminophen 500mg""], ""lab_results"": {""WBC"": ""13.2 K/uL (elevated)"", ""Hgb"": ""14.1 g/dL"", ""CRP"": ""48 mg/L (elevated)"", ""ChestXRay"": ""Right lower lobe infiltrate""}, ""follow_up_date"": ""2024-03-07"", ""notes"": ""Rest, fluids, avoid smoking. ER if SpO2 < 93%.""}","[{""type"": ""NAME"", ""value"": ""Carlos Rivera""}, {""type"": ""NAME"", ""value"": ""Linda Zhao""}, {""type"": ""DATE_TIME"", ""value"": ""May 3, 1979""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(646) 555-8811""}, {""type"": ""MEDICAL_ID"", ""value"": ""MSH-112233""}, {""type"": ""LOCATION"", ""value"": ""88 Riverside Drive, New York, NY 10024""}]",Urgent care visit for pneumonia with lab results
+MED005,"PSYCHIATRIC EVALUATION REPORT
+
+UCLA Neuropsychiatric Institute
+760 Westwood Plaza, Los Angeles, CA 90095
+Phone: (310) 555-8700 | Fax: (310) 555-8701
+
+Date of Evaluation: March 12, 2024
+Evaluating Clinician: Dr. Sandra Lee, MD, FAPA — Psychiatry
+NPI: 9988776655
+
+PATIENT INFORMATION:
+Name: Amanda Foster
+Date of Birth: November 11, 1991
+Patient ID: UCLA-998877
+Address: 330 N Camden Drive, Beverly Hills, CA 90210
+Emergency Contact: Brian Foster (Brother) — (310) 555-2299
+
+REASON FOR REFERRAL:
+Referred by primary care physician for evaluation of treatment-resistant depression.
+
+DIAGNOSES:
+Axis I: Major Depressive Disorder, Recurrent, Severe (F33.2)
+        Generalized Anxiety Disorder (F41.1)
+Axis II: Deferred
+
+CURRENT MEDICATIONS (at time of evaluation):
+1. Escitalopram 20mg — daily (inadequate response noted)
+2. Buspirone 15mg — twice daily
+3. Lorazepam 0.5mg — PRN anxiety (limited use recommended)
+
+ASSESSMENT:
+Patient endorses persistent low mood, anhedonia, insomnia, and anxiety for 14+ months.
+PHQ-9 score: 22/27 (severe). GAD-7 score: 18/21 (severe).
+
+TREATMENT PLAN:
+• Switch Escitalopram to Venlafaxine XR 75mg → titrate to 225mg over 4 weeks
+• Continue Buspirone 15mg BID
+• Initiate weekly individual CBT therapy (refer to Dr. Kim, Psychology)
+• Repeat PHQ-9 and GAD-7 in 4 weeks
+• Consider TMS evaluation if no improvement in 8 weeks
+
+FOLLOW-UP: April 9, 2024 at 10:00 AM",medical_record,"{""patient_name"": ""Amanda Foster"", ""patient_id"": ""UCLA-998877"", ""date_of_birth"": ""1991-11-11"", ""visit_date"": ""2024-03-12"", ""physician_name"": ""Dr. Sandra Lee"", ""department"": ""Psychiatry"", ""diagnosis"": ""Major Depressive Disorder Recurrent Severe, Generalized Anxiety Disorder"", ""prescribed_medications"": [""Venlafaxine XR 75mg-225mg"", ""Buspirone 15mg BID"", ""Lorazepam 0.5mg PRN""], ""lab_results"": {""PHQ-9"": ""22/27 (severe)"", ""GAD-7"": ""18/21 (severe)""}, ""follow_up_date"": ""2024-04-09"", ""notes"": ""CBT therapy weekly, consider TMS if no improvement in 8 weeks""}","[{""type"": ""NAME"", ""value"": ""Amanda Foster""}, {""type"": ""NAME"", ""value"": ""Sandra Lee""}, {""type"": ""DATE_TIME"", ""value"": ""November 11, 1991""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(310) 555-8700""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(310) 555-2299""}, {""type"": ""MEDICAL_ID"", ""value"": ""UCLA-998877""}, {""type"": ""LOCATION"", ""value"": ""330 N Camden Drive, Beverly Hills, CA 90210""}]",Psychiatric evaluation report for treatment-resistant depression
+MED006,"ORTHOPEDIC SURGERY OPERATIVE REPORT
+
+Boston Sports Medicine & Orthopedic Center
+44 Commonwealth Avenue, Boston, MA 02116
+Phone: (617) 555-3400
+
+Date of Surgery: March 20, 2024
+Surgeon: Dr. Kevin O'Malley, MD, FAAOS
+NPI: 4455667788
+Anesthesia: General
+
+PATIENT:
+Name: Tyler Johnson
+Date of Birth: August 14, 1998
+Patient ID: BSM-556789
+Address: 10 Boylston Street, Apt 7, Boston, MA 02116
+
+PROCEDURE: Left Anterior Cruciate Ligament (ACL) Reconstruction
+CPT Code: 29888
+ICD-10: M23.611 (Spontaneous disruption, ACL, left knee)
+
+OPERATIVE FINDINGS:
+Complete tear of the left ACL confirmed on MRI pre-op.
+Grade I cartilage wear on medial femoral condyle.
+
+PROCEDURE PERFORMED:
+Patellar tendon autograft ACL reconstruction using bone-patellar tendon-bone technique.
+Interference screws placed: tibial (9x25mm BioScrew), femoral (8x25mm BioScrew).
+EBL: 50mL | Tourniquet time: 48 minutes | Total OR time: 85 minutes
+
+POST-OP ORDERS:
+• Crutches weight-bearing as tolerated × 2 weeks
+• Cryotherapy 20 min × 4 daily × 1 week
+Medications:
+1. Oxycodone 5mg — every 4-6 hrs PRN pain × 5 days
+2. Ibuprofen 600mg — every 8 hrs with food × 10 days
+3. Aspirin 81mg — daily × 6 weeks (DVT prophylaxis)
+
+FOLLOW-UP: March 28, 2024 — post-op wound check
+PT to begin at 2 weeks post-op",medical_record,"{""patient_name"": ""Tyler Johnson"", ""patient_id"": ""BSM-556789"", ""date_of_birth"": ""1998-08-14"", ""visit_date"": ""2024-03-20"", ""physician_name"": ""Dr. Kevin O'Malley"", ""department"": ""Orthopedic Surgery"", ""diagnosis"": ""ACL Tear Left Knee (M23.611)"", ""prescribed_medications"": [""Oxycodone 5mg PRN"", ""Ibuprofen 600mg every 8 hrs"", ""Aspirin 81mg daily""], ""lab_results"": {""EBL"": ""50mL"", ""tourniquet_time"": ""48 min"", ""OR_time"": ""85 min""}, ""follow_up_date"": ""2024-03-28"", ""notes"": ""ACL reconstruction with patellar tendon autograft. PT at 2 weeks.""}","[{""type"": ""NAME"", ""value"": ""Tyler Johnson""}, {""type"": ""NAME"", ""value"": ""Kevin O'Malley""}, {""type"": ""DATE_TIME"", ""value"": ""August 14, 1998""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(617) 555-3400""}, {""type"": ""MEDICAL_ID"", ""value"": ""BSM-556789""}, {""type"": ""LOCATION"", ""value"": ""10 Boylston Street, Apt 7, Boston, MA 02116""}]",ACL reconstruction operative report with post-op orders
+MED007,"PEDIATRIC WELL-CHILD VISIT RECORD
+
+Rainbow Pediatrics Associates
+2200 Children's Way, Nashville, TN 37232
+Phone: (615) 555-7100 | Fax: (615) 555-7101
+
+Visit Date: April 4, 2024
+Visit Type: 6-Year Well-Child Check
+
+PATIENT:
+Name: Emma Nguyen
+Date of Birth: March 15, 2018 (Age: 6 years)
+Patient ID: RPA-334411
+Parent/Guardian: Lily Nguyen (Mother)
+Phone: (615) 555-4422
+Address: 501 Music Row, Nashville, TN 37203
+
+ATTENDING PHYSICIAN: Dr. Jose Martinez, MD — Pediatrics
+NPI: 6677889900
+
+GROWTH:
+Height: 45.5 in (97th percentile) | Weight: 48 lbs (85th percentile) | BMI: 15.3 (70th percentile)
+
+DEVELOPMENTAL MILESTONES: All age-appropriate milestones met.
+Vision screening: 20/20 bilateral. Hearing: normal. Dental: referred.
+
+IMMUNIZATIONS GIVEN TODAY:
+• DTaP (5th dose) — Lot#ABC123
+• IPV (4th dose) — Lot#DEF456
+• MMR (2nd dose) — Lot#GHI789
+• Varicella (2nd dose) — Lot#JKL012
+
+PRESCRIBED / RECOMMENDED:
+• Fluoride varnish applied
+• Children's Multivitamin (OTC) — daily
+• Vitamin D 600IU — daily (dietary deficiency noted)
+
+FOLLOW-UP: 9-year well-child check (2027)
+NOTES: Excellent health. No concerns. School clearance form signed.",medical_record,"{""patient_name"": ""Emma Nguyen"", ""patient_id"": ""RPA-334411"", ""date_of_birth"": ""2018-03-15"", ""visit_date"": ""2024-04-04"", ""physician_name"": ""Dr. Jose Martinez"", ""department"": ""Pediatrics"", ""diagnosis"": ""Healthy child \u2014 well-child check"", ""prescribed_medications"": [""Children's Multivitamin daily"", ""Vitamin D 600IU daily"", ""Fluoride varnish""], ""lab_results"": {""height"": ""45.5 in (97th percentile)"", ""weight"": ""48 lbs (85th percentile)"", ""BMI"": ""15.3 (70th percentile)""}, ""follow_up_date"": ""2027-01-01"", ""notes"": ""All milestones met. Vision 20/20. Immunizations administered.""}","[{""type"": ""NAME"", ""value"": ""Emma Nguyen""}, {""type"": ""NAME"", ""value"": ""Lily Nguyen""}, {""type"": ""DATE_TIME"", ""value"": ""March 15, 2018""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(615) 555-7100""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(615) 555-4422""}, {""type"": ""MEDICAL_ID"", ""value"": ""RPA-334411""}, {""type"": ""LOCATION"", ""value"": ""501 Music Row, Nashville, TN 37203""}]",Pediatric well-child check with immunizations and growth metrics
+MED008,"RADIOLOGY REPORT — MRI BRAIN
+
+Cleveland Clinic Imaging Center
+9500 Euclid Avenue, Cleveland, OH 44195
+Phone: (216) 555-3600
+
+Study Date: March 14, 2024 at 11:30 AM
+Report Date: March 14, 2024 at 3:15 PM
+Modality: MRI Brain with and without Contrast (3T)
+Order #: RAD-2024-3344
+
+PATIENT:
+Name: Dorothy Williams
+Date of Birth: February 22, 1955
+Patient ID: CC-778899
+Address: 234 Fairmount Blvd, Cleveland Heights, OH 44118
+Ordering Physician: Dr. Ahmad Hassan, Neurology
+NPI: 3344556677
+
+CLINICAL INDICATION:
+Progressive memory loss, confusion, family history of Alzheimer's disease.
+
+TECHNIQUE:
+Multiplanar MRI sequences acquired on Siemens 3T MAGNETOM. IV contrast: Gadavist 0.1 mmol/kg.
+
+FINDINGS:
+White Matter: Minimal periventricular white matter T2 hyperintensities. FLAIR: mild.
+Hippocampal Volume: Bilateral hippocampal atrophy, left > right (moderate degree, consistent with age-associated neurodegeneration).
+Cortex: Mild parietal and temporal cortical thinning.
+No acute infarct, hemorrhage, or enhancing mass lesion.
+Vessels: Patent circle of Willis. Normal flow voids.
+
+IMPRESSION:
+1. Moderate bilateral hippocampal atrophy consistent with early Alzheimer's disease pattern.
+2. Mild white matter disease, likely microvascular etiology.
+3. No acute intracranial pathology.
+
+Radiologist: Dr. Priya Bansal, MD — Neuroradiology
+License: OH-R55443
+Electronically signed: March 14, 2024 at 3:15 PM",medical_record,"{""patient_name"": ""Dorothy Williams"", ""patient_id"": ""CC-778899"", ""date_of_birth"": ""1955-02-22"", ""visit_date"": ""2024-03-14"", ""physician_name"": ""Dr. Ahmad Hassan"", ""department"": ""Neurology / Radiology"", ""diagnosis"": ""Early Alzheimer's disease pattern, mild white matter disease"", ""prescribed_medications"": [], ""lab_results"": {""finding"": ""Moderate bilateral hippocampal atrophy, mild white matter T2 changes"", ""impression"": ""Early Alzheimer pattern""}, ""follow_up_date"": null, ""notes"": ""MRI brain with contrast. Radiologist: Dr. Priya Bansal.""}","[{""type"": ""NAME"", ""value"": ""Dorothy Williams""}, {""type"": ""NAME"", ""value"": ""Ahmad Hassan""}, {""type"": ""DATE_TIME"", ""value"": ""February 22, 1955""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(216) 555-3600""}, {""type"": ""MEDICAL_ID"", ""value"": ""CC-778899""}, {""type"": ""LOCATION"", ""value"": ""234 Fairmount Blvd, Cleveland Heights, OH 44118""}]",Brain MRI radiology report with Alzheimer's impression
+ID004,"REPUBLIC OF INDIA
+AADHAAR CARD
+Unique Identification Authority of India
+
+Aadhaar Number: 4521 8833 9910
+Name: RAJAN KAPOOR
+Date of Birth: 12/03/1985
+Gender: MALE
+Address: 14B, Sector 22, Dwarka
+         New Delhi – 110075
+         Delhi, India
+Mobile (linked): +91-98765-43210
+
+Issued by: Unique Identification Authority of India
+Issue Date: 05/09/2018
+Valid: Lifetime (no expiry)
+
+This is a machine-readable document. Use only for identity verification as permitted by UIDAI regulations.
+
+QR Code: [Encoded]
+UIDAI Website: uidai.gov.in
+Helpline: 1947",id_document,"{""document_type"": ""aadhaar_card"", ""document_number"": ""4521 8833 9910"", ""full_name"": ""Rajan Kapoor"", ""date_of_birth"": ""1985-03-12"", ""gender"": ""Male"", ""nationality"": ""Indian"", ""place_of_birth"": null, ""address"": ""14B, Sector 22, Dwarka, New Delhi 110075, Delhi, India"", ""issue_date"": ""2018-09-05"", ""expiration_date"": null, ""issuing_authority"": ""Unique Identification Authority of India""}","[{""type"": ""NAME"", ""value"": ""Rajan Kapoor""}, {""type"": ""DATE_TIME"", ""value"": ""12/03/1985""}, {""type"": ""PHONE_NUMBER"", ""value"": ""+91-98765-43210""}, {""type"": ""LOCATION"", ""value"": ""14B Sector 22 Dwarka New Delhi 110075""}]",Indian Aadhaar card identity document
+ID005,"STATE OF TEXAS
+DRIVER LICENSE — CLASS C
+Texas Department of Public Safety
+
+License Number: TX-29847561
+Full Name: JESSICA ANN CAMPBELL
+Date of Birth: 09/17/1995
+Gender: F
+Height: 5'4""
+Eye Color: BLU
+Address: 7702 Briar Forest Drive
+         Houston, TX 77063
+
+Issue Date: 03/12/2022
+Expiration Date: 09/17/2026
+
+RESTRICTIONS: None
+ENDORSEMENTS: None
+Organ Donor: YES ♥
+
+This credential is issued by the Texas Department of Public Safety.
+Duplicate/replacement: txdps.state.tx.us | 512-424-2600",id_document,"{""document_type"": ""driver_license"", ""document_number"": ""TX-29847561"", ""full_name"": ""Jessica Ann Campbell"", ""date_of_birth"": ""1995-09-17"", ""gender"": ""Female"", ""nationality"": ""USA"", ""place_of_birth"": null, ""address"": ""7702 Briar Forest Drive, Houston, TX 77063"", ""issue_date"": ""2022-03-12"", ""expiration_date"": ""2026-09-17"", ""issuing_authority"": ""Texas Department of Public Safety""}","[{""type"": ""NAME"", ""value"": ""Jessica Ann Campbell""}, {""type"": ""DATE_TIME"", ""value"": ""09/17/1995""}, {""type"": ""LOCATION"", ""value"": ""7702 Briar Forest Drive, Houston, TX 77063""}, {""type"": ""PHONE_NUMBER"", ""value"": ""512-424-2600""}]",Texas driver license Class C
+ID006,"EMPLOYEE IDENTITY CARD
+TATA CONSULTANCY SERVICES
+
+Employee ID: TCS-2024-44871
+Name: PRIYA SUBRAMANIAM
+Designation: Senior Systems Engineer
+Department: Banking & Financial Services
+Location: TCS Siruseri Campus, Chennai, Tamil Nadu 603103
+Blood Group: O+
+Date of Joining: 01 June 2022
+Valid Until: 31 May 2025
+Emergency Contact: +91-44-6632-0000 (Security Desk)
+
+[PHOTO]
+[BARCODE]
+[QR CODE linking to internal HR portal]
+
+For queries: idcard.support@tcs.com
+If found, please deposit at nearest TCS office or call +91-44-6632-0000",id_document,"{""document_type"": ""employee_id"", ""document_number"": ""TCS-2024-44871"", ""full_name"": ""Priya Subramaniam"", ""date_of_birth"": null, ""gender"": null, ""nationality"": ""Indian"", ""place_of_birth"": null, ""address"": ""TCS Siruseri Campus, Chennai, Tamil Nadu 603103"", ""issue_date"": ""2022-06-01"", ""expiration_date"": ""2025-05-31"", ""issuing_authority"": ""Tata Consultancy Services""}","[{""type"": ""NAME"", ""value"": ""Priya Subramaniam""}, {""type"": ""EMAIL"", ""value"": ""idcard.support@tcs.com""}, {""type"": ""PHONE_NUMBER"", ""value"": ""+91-44-6632-0000""}, {""type"": ""LOCATION"", ""value"": ""TCS Siruseri Campus, Chennai, Tamil Nadu 603103""}]",Indian corporate employee ID card
+ID007,"EUROPEAN UNION
+NATIONAL IDENTITY CARD — GERMANY
+Personalausweis
+
+Surname: MÜLLER
+Given Names: HANS JOACHIM
+Nationality: GERMAN / DEUTSCH
+Date of Birth: 24.07.1987
+Place of Birth: MÜNCHEN, BAVARIA
+Gender: M
+Height: 180 cm
+Eye Color: GREY
+Address: Hauptstraße 42, 80331 München, Germany
+
+Document Number: L01X00T47
+Date of Issue: 15.04.2020
+Date of Expiry: 24.07.2030
+Issuing Authority: Kreisverwaltungsreferat München
+
+MRZ Line 1: IDD<<MÜLLER<<HANS<JOACHIM<<<<<<<<<<<
+MRZ Line 2: L01X00T472DEUTSCH8707243M3007244
+
+This document is valid for all EU member states and countries with bilateral agreements.",id_document,"{""document_type"": ""national_id_card"", ""document_number"": ""L01X00T47"", ""full_name"": ""Hans Joachim M\u00fcller"", ""date_of_birth"": ""1987-07-24"", ""gender"": ""Male"", ""nationality"": ""German"", ""place_of_birth"": ""M\u00fcnchen, Bavaria"", ""address"": ""Hauptstra\u00dfe 42, 80331 M\u00fcnchen, Germany"", ""issue_date"": ""2020-04-15"", ""expiration_date"": ""2030-07-24"", ""issuing_authority"": ""Kreisverwaltungsreferat M\u00fcnchen""}","[{""type"": ""NAME"", ""value"": ""Hans Joachim M\u00fcller""}, {""type"": ""DATE_TIME"", ""value"": ""24.07.1987""}, {""type"": ""LOCATION"", ""value"": ""Hauptstra\u00dfe 42, 80331 M\u00fcnchen, Germany""}, {""type"": ""LOCATION"", ""value"": ""M\u00fcnchen, Bavaria""}]",German national identity card with MRZ
+ACA004,"OFFICIAL TRANSCRIPT
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Office of the Registrar
+77 Massachusetts Avenue, Cambridge, MA 02139
+Phone: (617) 555-4800
+
+STUDENT INFORMATION:
+Name: David Laurent Chen
+Student ID: MIT-2022-19482
+Program: Doctor of Philosophy — Computer Science
+Enrollment Status: Graduated
+Date of Graduation: June 7, 2024
+Department: Electrical Engineering and Computer Science (EECS)
+Thesis Advisor: Professor Sarah Williams
+Thesis: ""Efficient Transformer Architectures for Edge AI Deployment""
+
+COURSE RECORD:
+6.854 — Advanced Algorithms, A (6 units)
+6.869 — Advances in Computer Vision, A (6 units)
+6.867 — Machine Learning, A (9 units)
+6.806 — Advanced Natural Language Processing, A (9 units)
+6.864 — Advanced NLP: Deep Learning, A- (9 units)
+6.840 — Theory of Computation, B+ (9 units)
+Thesis (Doctoral), Pass
+
+DEGREE AWARDED:
+Doctor of Philosophy in Computer Science
+Conferred: June 7, 2024
+With Academic Excellence
+GPA: 4.9 / 5.0
+
+This transcript is an official document of MIT. Unauthorized reproduction is prohibited.
+Registrar: Dr. Mary Callahan | Date Issued: June 10, 2024
+Electronic seal applied.",academic,"{""document_type"": ""transcript"", ""student_name"": ""David Laurent Chen"", ""student_id"": ""MIT-2022-19482"", ""institution_name"": ""Massachusetts Institute of Technology"", ""degree_program"": ""Doctor of Philosophy \u2014 Computer Science"", ""graduation_date"": ""2024-06-07"", ""gpa"": ""4.9/5.0"", ""doi"": null, ""courses"": [""6.854 Advanced Algorithms A"", ""6.869 Computer Vision A"", ""6.867 Machine Learning A"", ""6.806 Advanced NLP A"", ""6.864 Deep Learning A-"", ""6.840 Theory of Computation B+""], ""honors"": ""With Academic Excellence""}","[{""type"": ""NAME"", ""value"": ""David Laurent Chen""}, {""type"": ""LOCATION"", ""value"": ""77 Massachusetts Avenue, Cambridge, MA 02139""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(617) 555-4800""}]",MIT PhD transcript with course grades
+ACA005,"UNIVERSITY OF OXFORD
+Examination Schools, High Street, Oxford OX1 4BG
+Telephone: +44 (0)1865 276000
+
+OFFICIAL ACADEMIC TRANSCRIPT
+
+Student Name: Fatima Al-Rashidi
+Student Number: 1099223
+College: Balliol College
+Course: Master of Science in Mathematical Finance
+Year of Entry: October 2022
+Year of Graduation: July 2023
+
+MODULE RESULTS:
+Mathematical Methods for Finance — Distinction
+Stochastic Analysis — Distinction
+Computational Finance — Merit
+Portfolio Theory & Risk Management — Distinction
+Machine Learning in Finance — Distinction
+Dissertation: ""Deep Reinforcement Learning for Portfolio Optimisation"" — Distinction
+
+Overall Classification: DISTINCTION (GPA equivalent: 4.0 / 4.0)
+Award: Master of Science (MSc) in Mathematical Finance
+Date Conferred: 20 July 2023
+
+Certified by:
+Dr. Philip Sutherland
+Academic Registrar, University of Oxford
+Date: 25 July 2023
+
+This document has been digitally authenticated. Verify at: ox.ac.uk/verify",academic,"{""document_type"": ""transcript"", ""student_name"": ""Fatima Al-Rashidi"", ""student_id"": ""1099223"", ""institution_name"": ""University of Oxford"", ""degree_program"": ""Master of Science in Mathematical Finance"", ""graduation_date"": ""2023-07-20"", ""gpa"": ""4.0/4.0"", ""doi"": null, ""courses"": [""Mathematical Methods for Finance \u2014 Distinction"", ""Stochastic Analysis \u2014 Distinction"", ""Computational Finance \u2014 Merit"", ""Portfolio Theory \u2014 Distinction"", ""Machine Learning in Finance \u2014 Distinction"", ""Dissertation \u2014 Distinction""], ""honors"": ""Distinction""}","[{""type"": ""NAME"", ""value"": ""Fatima Al-Rashidi""}, {""type"": ""PHONE_NUMBER"", ""value"": ""+44 (0)1865 276000""}, {""type"": ""LOCATION"", ""value"": ""Balliol College, Oxford OX1 4BG""}]",University of Oxford MSc transcript with Distinction classification
+ACA006,"UNIVERSITY GRANTS COMMISSION — INDIA
+NATIONAL TESTING AGENCY
+
+FINAL MARK SHEET
+Academic Year 2023-2024
+
+University: Anna University, Chennai
+College: Sri Venkateswara College of Engineering, Sriperumbudur
+Programme: Bachelor of Engineering — Computer Science & Engineering
+Semester: VIII (Final Semester)
+
+Student Name: KRISHNASWAMY VENKATARAMAN
+Register Number: 2020103501278
+Date of Birth: 15-Aug-2002
+Category: OBC-NCL
+
+SUBJECT RESULTS:
+CS8081 — Internet of Things: 92 (O Grade)
+CS8082 — Cloud Computing: 88 (A+ Grade)
+CS8083 — Deep Learning: 95 (O Grade)
+CS8084 — Blockchain Technology: 79 (A Grade)
+CS8085 — Software Project Mgmt: 84 (A+ Grade)
+CS8086 — Project Work II: 94 (O Grade)
+
+Total Marks (Semester VIII): 532 / 600
+CGPA (Overall 8 Semesters): 8.92 / 10
+
+DEGREE TITLE: Bachelor of Engineering (Computer Science & Engineering)
+Date of Graduation: 14 June 2024
+Class Awarded: FIRST CLASS WITH DISTINCTION
+
+Controller of Examinations: Dr. R. Sundaram
+Date of Issue: 20 June 2024
+Examination Reg. No: CEG/2024/CS/9412",academic,"{""document_type"": ""mark_sheet"", ""student_name"": ""Krishnaswamy Venkataraman"", ""student_id"": ""2020103501278"", ""institution_name"": ""Sri Venkateswara College of Engineering, Anna University"", ""degree_program"": ""Bachelor of Engineering \u2014 Computer Science & Engineering"", ""graduation_date"": ""2024-06-14"", ""gpa"": ""8.92/10"", ""doi"": null, ""courses"": [""CS8081 IoT 92/O"", ""CS8082 Cloud Computing 88/A+"", ""CS8083 Deep Learning 95/O"", ""CS8084 Blockchain 79/A"", ""CS8085 SPM 84/A+"", ""CS8086 Project 94/O""], ""honors"": ""First Class with Distinction""}","[{""type"": ""NAME"", ""value"": ""Krishnaswamy Venkataraman""}, {""type"": ""DATE_TIME"", ""value"": ""15-Aug-2002""}, {""type"": ""LOCATION"", ""value"": ""Sriperumbudur, Tamil Nadu""}]",Indian University BE final mark sheet with CGPA
+ACA007,"DEGREE CERTIFICATE
+
+CARNEGIE MELLON UNIVERSITY
+Pittsburgh, Pennsylvania 15213
+
+THIS IS TO CERTIFY THAT
+
+ELENA VASQUEZ
+
+having successfully completed all requirements prescribed by the University
+
+is awarded the degree of
+
+MASTER OF SCIENCE IN INFORMATION SECURITY
+
+with all the rights, privileges, and responsibilities pertaining thereto
+
+Conferred in Pittsburgh, Pennsylvania on the Fifteenth Day of December, Two Thousand and Twenty-Three
+
+Student ID: CMU-2022-29871
+Specialization: Applied Cryptography & Network Security
+GPA: 3.94 / 4.0
+Honors: Phi Kappa Phi Honor Society
+
+__________________________
+Farnam Jahanian
+President, Carnegie Mellon University
+
+__________________________
+Martial Hebert
+Dean, School of Computer Science
+
+Registrar Certification: This document is an official certificate of Carnegie Mellon University.
+Verification: verify.cmu.edu | registrar@andrew.cmu.edu | (412) 268-2077",academic,"{""document_type"": ""degree_certificate"", ""student_name"": ""Elena Vasquez"", ""student_id"": ""CMU-2022-29871"", ""institution_name"": ""Carnegie Mellon University"", ""degree_program"": ""Master of Science in Information Security"", ""graduation_date"": ""2023-12-15"", ""gpa"": ""3.94/4.0"", ""doi"": null, ""courses"": [], ""honors"": ""Phi Kappa Phi Honor Society""}","[{""type"": ""NAME"", ""value"": ""Elena Vasquez""}, {""type"": ""EMAIL"", ""value"": ""registrar@andrew.cmu.edu""}, {""type"": ""PHONE_NUMBER"", ""value"": ""(412) 268-2077""}, {""type"": ""LOCATION"", ""value"": ""Pittsburgh, Pennsylvania 15213""}]",CMU Master of Science degree certificate with honor society

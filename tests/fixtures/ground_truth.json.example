@@ -1,0 +1,58 @@
+{
+  "_readme": "Ground truth annotations for test documents",
+  "_format": {
+    "document_name.pdf": {
+      "doc_type": "invoice|receipt|form|...",
+      "fields": {
+        "field_name": "expected_value"
+      },
+      "pii_entities": ["list", "of", "expected", "PII", "values"]
+    }
+  },
+  
+  "sample_invoice.pdf": {
+    "doc_type": "invoice",
+    "fields": {
+      "invoice_number": "INV-2024-001",
+      "invoice_date": "2024-01-15",
+      "vendor_name": "ACME Corporation",
+      "customer_name": "John Smith",
+      "total_amount": 540.00,
+      "tax_amount": 40.00,
+      "subtotal": 500.00
+    },
+    "pii_entities": [
+      "John Smith",
+      "123 Business St",
+      "456 Customer Ave"
+    ]
+  },
+  
+  "sample_receipt.pdf": {
+    "doc_type": "receipt",
+    "fields": {
+      "merchant_name": "Coffee Shop",
+      "receipt_date": "2024-01-20",
+      "total_amount": 15.50,
+      "payment_method": "Credit Card"
+    },
+    "pii_entities": [
+      "**** 1234"
+    ]
+  },
+  
+  "sample_form.pdf": {
+    "doc_type": "form",
+    "fields": {
+      "form_name": "Employment Application",
+      "applicant_name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "555-123-4567"
+    },
+    "pii_entities": [
+      "Jane Doe",
+      "jane.doe@example.com",
+      "555-123-4567"
+    ]
+  }
+}
